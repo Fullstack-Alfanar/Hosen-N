@@ -11,11 +11,10 @@ function App() {
             <label>Input Color:</label>
           </div>
           <div>
-            <input placeholder="Color" id="colorName" />
             <input
-              type="submit"
-              value="Change"
-              onClick={() => {
+              placeholder="Color"
+              id="colorName"
+              onChange={() => {
                 setColor(document.getElementById("colorName").value);
               }}
             />
