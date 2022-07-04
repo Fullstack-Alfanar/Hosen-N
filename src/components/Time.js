@@ -10,6 +10,6 @@ function Clock() {
     }, 1000);
   });
 
-  return <h1>{time}</h1>;
+  return <div>{time}</div>;
 }
 export default Clock;

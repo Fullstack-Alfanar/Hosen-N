@@ -1,0 +1,18 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #486168;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  .nav {
+    button {
+      font-size: 22px;
+      padding: 5px;
+      margin: 2px;
+      background-color: inherit;
+      border: none;
+    }
+  }
+}
